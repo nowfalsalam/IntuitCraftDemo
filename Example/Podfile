@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IntuitCraftDemo_Example' do
+  pod 'IntuitCraftDemo', :path => '../'
+
+  target 'IntuitCraftDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
